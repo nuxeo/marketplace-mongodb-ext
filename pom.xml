@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>8.10</version>
+    <version>8.10-HF01-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.mongodb.ext</groupId>
@@ -21,12 +21,10 @@
       <dependency>
         <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
         <artifactId>nuxeo-mongodb-audit</artifactId>
-        <version>8.10-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
         <artifactId>nuxeo-mongodb-directory</artifactId>
-        <version>8.10-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.nuxeo.marketplace.mongodb.ext</groupId>
