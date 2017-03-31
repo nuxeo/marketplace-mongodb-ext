@@ -1,8 +1,8 @@
 <!-- TODO update documentation link -->
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-mongodb-ext" version="@VERSION@">
-  <title>Nuxeo MongoDB Ext</title>
-  <description>Nuxeo MongoDB Ext give the way to store audit in MongoDB and use MongoDB as backend for directories.</description>
+  <title>Nuxeo MongoDB Audit and Directories</title>
+  <description>The MongoDB Audit and Directories addon enables to use MongoDB to store audit and directories data.</description>
   <home-page>https://doc.nuxeo.com/</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
