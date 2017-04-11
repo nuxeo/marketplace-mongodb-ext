@@ -3,6 +3,7 @@
 
   <require>org.nuxeo.ecm.platform.audit.PageProviderservice.contrib</require>
   <require>org.nuxeo.admin.pageproviders</require>
+  <require>org.nuxeo.ecm.platform.audit.PageProviderservice.es.contrib</require>
 
   <extension target="org.nuxeo.ecm.platform.query.api.PageProviderService"
              point="providers">
