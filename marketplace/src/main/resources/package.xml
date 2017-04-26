@@ -16,9 +16,6 @@
     <platform>server-8.10</platform>
     <platform>server-8.10-*</platform>
   </platforms>
-  <dependencies>
-    <package>nuxeo-8.10-HF05</package>
-  </dependencies>
   <license>AL 2.0</license>
   <license-url>http://www.apache.org/licenses/LICENSE-2.0.html</license-url>
   <visibility>PUBLIC</visibility>
