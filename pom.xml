@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>9.1-SNAPSHOT</version>
+    <version>9.1</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.mongodb.ext</groupId>
@@ -23,6 +23,27 @@
         <artifactId>marketplace-mongodb-ext</artifactId>
         <version>${project.version}</version>
         <type>zip</type>
+      </dependency>
+      <!-- dependency management for this special release - override ones from nuxeo-addons -->
+      <dependency>
+        <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
+        <artifactId>nuxeo-mongodb-core</artifactId>
+        <version>9.1.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
+        <artifactId>nuxeo-mongodb-audit</artifactId>
+        <version>9.1.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
+        <artifactId>nuxeo-mongodb-directory</artifactId>
+        <version>9.1.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.ecm.mongodb.ext</groupId>
+        <artifactId>nuxeo-mongodb-seqgen</artifactId>
+        <version>9.1.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
