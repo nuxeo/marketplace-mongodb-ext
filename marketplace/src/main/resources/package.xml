@@ -9,9 +9,9 @@
   <uninstaller restart="true" />
   <hotreload-support>true</hotreload-support>
   <require-terms-and-conditions-acceptance>true</require-terms-and-conditions-acceptance>
-  <nuxeo-validation>none</nuxeo-validation>
-  <production-state>testing</production-state>
-  <supported>false</supported>
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
   <platforms>
     <platform>server-8.10</platform>
     <platform>server-8.10-*</platform>
