@@ -1,0 +1,2 @@
+This repository is deprecated.
+nuxeo-mongodb-ext has been moved to [nuxeo](https://github.com/nuxeo/nuxeo)
