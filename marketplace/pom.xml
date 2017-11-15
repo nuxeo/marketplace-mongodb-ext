@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.nuxeo.marketplace.mongodb.ext</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>release-1.0.3</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
