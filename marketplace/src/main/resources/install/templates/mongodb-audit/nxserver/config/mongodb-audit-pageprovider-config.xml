@@ -3,13 +3,15 @@
 
   <require>org.nuxeo.ecm.platform.audit.PageProviderservice.contrib</require>
   <require>org.nuxeo.admin.pageproviders</require>
+<#if ((elasticsearch.enabled)!"false") == "true" && ((audit.elasticsearch.enabled)!"false") == "true">
   <require>org.nuxeo.ecm.platform.audit.PageProviderservice.es.contrib</require>
+</#if>
 
   <extension target="org.nuxeo.ecm.platform.query.api.PageProviderService"
              point="providers">
 
     <genericPageProvider name="EVENTS_VIEW" class="org.nuxeo.mongodb.audit.pageprovider.MongoDBAuditPageProvider">
-      <property name="coreSession">#{documentManager}</property>
+      <property name="coreSession">${r"#{documentManager}"}</property>
       <property name="generateUIComments">false</property>
       <whereClause docType="BasicAuditSearch">
         <predicate parameter="eventDate" operator="BETWEEN">
